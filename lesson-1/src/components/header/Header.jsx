@@ -67,7 +67,7 @@ export default class Header extends Component {
             {cardData.map(item=>{
           return(
            <div className='card'  key={item.title}>
-           {/* style=({backgroundColor:item.bg})> */}
+          
            <div className='card-title'>
              <img src={item.img} alt="" />
              <h4>{item.title}</h4>
